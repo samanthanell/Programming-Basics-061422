@@ -1,0 +1,59 @@
+* {
+    font-family: 'Segoe UI', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 900px;
+    margin: 10 auto;
+}
+
+h1 {
+    text-align: right;
+}
+
+/* sidebar */
+.sidebar {
+    display: flow-root;
+    vertical-align: top;
+    width: 70%;
+    padding-right: 500%;
+}
+.whatishappening {
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+    width: 300px;
+}
+
+/* main content */
+.main {
+    border-left: 20px solid rgb(255, 153, 153);
+    padding-left: 5%;
+    display: inline-block;
+    vertical-align: top;
+    width: 6%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(185, 201, 251);
+}
+
+thead {
+    border-bottom: 2px solid rgb(255, 231, 164);
+}
+
+th,
+td {
+    padding: 5px 150px;
+}
+
+.hidden {
+    visibility: visible;
+}
+
+.with-css:after {
+    content: "But with just a little CSS, we can transform the way all the content appears!";
+}
